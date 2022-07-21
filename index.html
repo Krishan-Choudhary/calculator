@@ -17,39 +17,49 @@
             <input type="text" name="screen" id="screen">
             <table>
                 <tr>
-                    <td><button>(</button></td>
-                    <td><button>)</button></td>
-                    <td><button>C</button></td>
-                    <td><button>%</button></td>
+                    <td><button id="ce" onclick="backspc()">CE</button></td>
+                    <td><button onclick="fact()">x!</button></td>
+                    <td><button class="btn">(</button></td>
+                    <td><button class="btn" >)</button></td>
+                    <td><button class="btn">%</button></td>
+                    <td><button id="ac" onclick="screen.value=''">AC</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>*</button></td>
+                    <td><button onclick="sin()">sin</button></td>
+                    <td><button onclick="pi()">π</button></td>
+                    <td><button class="btn">7</button></td>
+                    <td><button class="btn">8</button></td>
+                    <td><button class="btn">9</button></td>
+                    <td><button class="btn">*</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
+                    <td><button onclick="cos()">cos</button></td>
+                    <td><button onclick="log()">log</button></td>
+                    <td><button class="btn">4</button></td>
+                    <td><button class="btn">5</button></td>
+                    <td><button class="btn">6</button></td>
+                    <td><button class="btn">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
+                    <td><button onclick="tan()">tan</button></td>
+                     <td><button onclick="sqrt()">√</button></td>
+                    <td><button class="btn">1</button></td>
+                    <td><button class="btn">2</button></td>
+                    <td><button class="btn">3</button></td>
+                    <td><button class="btn">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>/</button></td>
-                    <td><button>=</button></td>
+                    <td><button onclick="e()">e</button></td>
+                    <td><button onclick="pow()">x<span style="position: relative; bottom: .4em; right: .1em;">2</span></button></td>
+                    <td><button class="btn">0</button></td>
+                    <td><button class="btn">.</button></td>
+                    <td><button class="btn">/</button></td>
+                    <td><button id="eval" onclick="screen.value=eval(screen.value)">=</button></td>
                 </tr>
             </table>
         </div>
     </div>
 
 </body>
-
+<script src ="index.js"></script> 
 </html>

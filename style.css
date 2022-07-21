@@ -17,11 +17,11 @@ input{
 
 button{
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 35px;
     background: #978fa0;
-    width: 102px;
-    height: 90px;
-    margin: 6px;
+    width: 95px;
+    height: 82px;
+    margin: 4px;
 }
 
 .calculator{ 
@@ -29,6 +29,7 @@ button{
     background-color: #12376f;
     padding: 23px;
     display: inline-block;
+    border-radius: 28px;
     
 }
 
